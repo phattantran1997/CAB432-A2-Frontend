@@ -1,0 +1,87 @@
+.navbar-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-style {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #007bff;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .link-style {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .link-style:hover {
+    color: #007bff;
+  }
+  
+  .active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .login-style {
+    color: #fff;
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .login-style:hover {
+    background-color: #0056b3;
+  }
+  
+  .avatar-style {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .profile-section {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 150px;
+  }
+  
+  .dropdown-item {
+    padding: 0.75rem 1rem;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+  
